@@ -59,3 +59,9 @@ The goal of this project is to implement a "file checking" logic, while also add
 ## Authors
 
 Michal Young, Ram Durairajan. Updated by Ali Hassani.
+## Name
+Catherine Raj
+## Info
+craj@uoregon.edu
+## Description of project
+We are checking to see if a file exists in web/pages/, and then transmit messages or error codes accordingly, along with the file(if it exists)
