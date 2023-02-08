@@ -21,10 +21,10 @@ def hello(request):
 
 @app.errorhandler(403)
 def forbidden(e):
-    return send_from_directory('pages/','403.html')
+    return send_from_directory('pages/','403.html'),403
 @app.errorhandler(404)
 def not_found(e):
-    return send_from_directory('pages/', '404.html')
+    return send_from_directory('pages/', '404.html'),404
 
 
 
